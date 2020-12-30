@@ -1,0 +1,16 @@
+PODS:
+  - KXBaseTool (0.1.0)
+
+DEPENDENCIES:
+  - KXBaseTool (from `../`)
+
+EXTERNAL SOURCES:
+  KXBaseTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KXBaseTool: 24d922d15c2d622a1e0a6b91f3bd215f756c3cdc
+
+PODFILE CHECKSUM: 28bc930eacc0180274c309758806a47622f8e700
+
+COCOAPODS: 1.9.3

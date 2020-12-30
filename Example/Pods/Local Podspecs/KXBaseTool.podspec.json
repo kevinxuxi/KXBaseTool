@@ -1,0 +1,22 @@
+{
+  "name": "KXBaseTool",
+  "version": "0.1.0",
+  "summary": "A short description of KXBaseTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuxi/KXBaseTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuxi": "981821764@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xuxi/KXBaseTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KXBaseTool/Classes/**/*"
+}

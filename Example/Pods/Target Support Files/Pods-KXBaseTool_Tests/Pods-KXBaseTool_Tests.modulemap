@@ -1,0 +1,6 @@
+framework module Pods_KXBaseTool_Tests {
+  umbrella header "Pods-KXBaseTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
