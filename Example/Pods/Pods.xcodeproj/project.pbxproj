@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		136809335BD44CD789B3EE2D9FF02F39 /* Pods-KXBaseTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9850F25B870E650EF7A7A490C521BF2 /* Pods-KXBaseTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C9DCAD25242A67AF2107BDBD1D895A2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B6EE92EFDEDB84E7580B9260DDE9B /* ReplaceMe.m */; };
+		1DCF3860259C5F4100D777F0 /* KXGeometryTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCF385E259C5F4100D777F0 /* KXGeometryTool.h */; };
+		1DCF3861259C5F4100D777F0 /* KXGeometryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF385F259C5F4100D777F0 /* KXGeometryTool.m */; };
 		3897A34BFB8ECD856314A2F0AA771AF0 /* Pods-KXBaseTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62986CCF534791C74E0EBDD001B20EEA /* Pods-KXBaseTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E650410D8C85D16C8BA2A9E2AA9B30A /* Pods-KXBaseTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF594E76ABA76C5C4C2E6C29BA7B8A49 /* Pods-KXBaseTool_Example-dummy.m */; };
 		4D47C47336EB2CF69419574499A61D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,6 +42,9 @@
 		01DCE3826C73216FAE9B4B2579FC44E5 /* Pods-KXBaseTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KXBaseTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14C6732E78906304716E36CE624529A5 /* KXBaseTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KXBaseTool-Info.plist"; sourceTree = "<group>"; };
 		192402694007E0361DDE786B1C027BA2 /* Pods-KXBaseTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KXBaseTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DCF385E259C5F4100D777F0 /* KXGeometryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXGeometryTool.h; sourceTree = "<group>"; };
+		1DCF385F259C5F4100D777F0 /* KXGeometryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXGeometryTool.m; sourceTree = "<group>"; };
+		1DCF3865259C5FD300D777F0 /* KXBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXBaseTool.h; sourceTree = "<group>"; };
 		213B3B1BBE659FD821C3E5C25B3F14DF /* KXBaseTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KXBaseTool-umbrella.h"; sourceTree = "<group>"; };
 		24D1412BB7161BF1C28CD2710D391626 /* Pods-KXBaseTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KXBaseTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -48,19 +52,18 @@
 		3778C4F9C8E8DC1E42F8635D9631564C /* Pods-KXBaseTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KXBaseTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39A9EEB0B1B3C4774438674FEFF5A621 /* Pods-KXBaseTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KXBaseTool_Example.modulemap"; sourceTree = "<group>"; };
 		3C066BCA6928522927995353EF9EE999 /* Pods-KXBaseTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KXBaseTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		524B6EE92EFDEDB84E7580B9260DDE9B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KXBaseTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		54E0F0666FCE53FC00606A9A8014BA47 /* KXBaseTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KXBaseTool.framework; path = KXBaseTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E0F0666FCE53FC00606A9A8014BA47 /* KXBaseTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KXBaseTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C8EEFC7ACDF2E6D6435B657185DFD9 /* Pods-KXBaseTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KXBaseTool_Tests.modulemap"; sourceTree = "<group>"; };
 		62986CCF534791C74E0EBDD001B20EEA /* Pods-KXBaseTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KXBaseTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		644B4D491B468FD8703A941F7E463901 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		644B4D491B468FD8703A941F7E463901 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		694F6DF85B14299FF4C766CBB3123C2A /* KXBaseTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KXBaseTool.modulemap; sourceTree = "<group>"; };
 		6B904A4982930E31323BBF3AA826690F /* Pods-KXBaseTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KXBaseTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		7C008BDCCFC94BE0195FFC049D4AA746 /* Pods-KXBaseTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KXBaseTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		872E3E2FA480527C743B240B96994D21 /* Pods-KXBaseTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KXBaseTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		875C9714387E38A512180DFBF41D9E26 /* Pods-KXBaseTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KXBaseTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9534E0734971D02365846163A9BEC293 /* Pods_KXBaseTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KXBaseTool_Tests.framework; path = "Pods-KXBaseTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6383CD22E910EAEFA1F1DF9AC1E06C /* KXBaseTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KXBaseTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9534E0734971D02365846163A9BEC293 /* Pods_KXBaseTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KXBaseTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6383CD22E910EAEFA1F1DF9AC1E06C /* KXBaseTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KXBaseTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF594E76ABA76C5C4C2E6C29BA7B8A49 /* Pods-KXBaseTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KXBaseTool_Example-dummy.m"; sourceTree = "<group>"; };
 		C696F91EE4CAFC73A3C4A1D3EDBC583D /* Pods-KXBaseTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KXBaseTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C6FDC8F3D0E3108313D7C09DDDC5EBEA /* KXBaseTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KXBaseTool.debug.xcconfig; sourceTree = "<group>"; };
@@ -68,8 +71,8 @@
 		C9850F25B870E650EF7A7A490C521BF2 /* Pods-KXBaseTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KXBaseTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		D4117EADE36101AE01CDC9E9935D277E /* KXBaseTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KXBaseTool-prefix.pch"; sourceTree = "<group>"; };
 		DD17E18287AE43DFEE515BDD75D0F2E1 /* Pods-KXBaseTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KXBaseTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E04D0F00518E487FB099FE9848F2B644 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F11D6DE5A814564EBB4D8BF50A01BE3A /* Pods_KXBaseTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KXBaseTool_Example.framework; path = "Pods-KXBaseTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04D0F00518E487FB099FE9848F2B644 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F11D6DE5A814564EBB4D8BF50A01BE3A /* Pods_KXBaseTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KXBaseTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +123,9 @@
 		6E9A1D8126F863397C00FADEFC63F1DC /* KXBaseTool */ = {
 			isa = PBXGroup;
 			children = (
-				524B6EE92EFDEDB84E7580B9260DDE9B /* ReplaceMe.m */,
+				1DCF3865259C5FD300D777F0 /* KXBaseTool.h */,
+				1DCF385E259C5F4100D777F0 /* KXGeometryTool.h */,
+				1DCF385F259C5F4100D777F0 /* KXGeometryTool.m */,
 				EF207C58AA1D495D675A3824D0EEDB05 /* Pod */,
 				DBC138EBC8A4113141E7FFA10410C460 /* Support Files */,
 			);
@@ -246,6 +251,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCF3860259C5F4100D777F0 /* KXGeometryTool.h in Headers */,
 				BAA577A9814DB0E075DE2EFEF29E63C3 /* KXBaseTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4700D7B9E8BECBF295D7E3395BAE515 /* KXBaseTool-dummy.m in Sources */,
-				2C9DCAD25242A67AF2107BDBD1D895A2 /* ReplaceMe.m in Sources */,
+				1DCF3861259C5F4100D777F0 /* KXGeometryTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
