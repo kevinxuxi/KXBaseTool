@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DF80C1325A31BA300AD9386 /* KXBaseTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KXBaseTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DF00907DFCF831327831AC /* Pods_KXBaseTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KXBaseTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4533C8E462D958A07F6E7632 /* Pods_KXBaseTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KXBaseTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5428DC6892F97F803D86A0EC /* Pods-KXBaseTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXBaseTool_Example.release.xcconfig"; path = "Target Support Files/Pods-KXBaseTool_Example/Pods-KXBaseTool_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +63,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96442B479E5140D8050710C5 /* Pods-KXBaseTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXBaseTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-KXBaseTool_Example/Pods-KXBaseTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B028DF01D5527DFB3B18AED0 /* KXBaseTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KXBaseTool.podspec; path = ../KXBaseTool.podspec; sourceTree = "<group>"; };
+		B028DF01D5527DFB3B18AED0 /* KXBaseTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KXBaseTool.podspec; path = ../KXBaseTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3705B29E4FFD09FB8A5B33C /* Pods-KXBaseTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXBaseTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KXBaseTool_Tests/Pods-KXBaseTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E515CE63C08C09358256EB00 /* Pods-KXBaseTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KXBaseTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-KXBaseTool_Tests/Pods-KXBaseTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F3A2BBB9AC0CCA52B122B00C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F91B5B4C855321B219534BA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F3A2BBB9AC0CCA52B122B00C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F91B5B4C855321B219534BA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DF80C1325A31BA300AD9386 /* KXBaseTool.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +195,6 @@
 				B3705B29E4FFD09FB8A5B33C /* Pods-KXBaseTool_Tests.debug.xcconfig */,
 				E515CE63C08C09358256EB00 /* Pods-KXBaseTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,7 +249,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xuxi;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = KQTW63ED2G;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = KQTW63ED2G;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -258,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +500,13 @@
 			baseConfigurationReference = 96442B479E5140D8050710C5 /* Pods-KXBaseTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQTW63ED2G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KXBaseTool/KXBaseTool-Prefix.pch";
 				INFOPLIST_FILE = "KXBaseTool/KXBaseTool-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinxuxi.www.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +518,13 @@
 			baseConfigurationReference = 5428DC6892F97F803D86A0EC /* Pods-KXBaseTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQTW63ED2G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KXBaseTool/KXBaseTool-Prefix.pch";
 				INFOPLIST_FILE = "KXBaseTool/KXBaseTool-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinxuxi.www.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -526,6 +536,7 @@
 			baseConfigurationReference = B3705B29E4FFD09FB8A5B33C /* Pods-KXBaseTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQTW63ED2G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +562,7 @@
 			baseConfigurationReference = E515CE63C08C09358256EB00 /* Pods-KXBaseTool_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQTW63ED2G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

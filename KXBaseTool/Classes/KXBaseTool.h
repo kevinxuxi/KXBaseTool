@@ -9,5 +9,7 @@
 #define KXBaseTool_h
 
 #import "KXGeometryTool.h"
+#import "UIColor+KXColorExtension.h"
+#import "KXLineProgressView.h"
 
 #endif /* KXBaseTool_h */
