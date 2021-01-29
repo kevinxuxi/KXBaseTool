@@ -8,12 +8,12 @@
 #import "UIColor+KXColorExtension.h"
 
 @implementation UIColor (KXColorExtension)
-+ (UIColor *)colorWithHexStr:(NSString *)hexStr
++ (UIColor *)kx_ColorWithHexStr:(NSString *)hexStr
 {
-    return [self colorWithHexStr:hexStr alpha:1.0];
+    return [self kx_ColorWithHexStr:hexStr alpha:1.0];
 }
 
-+ (UIColor *)colorWithHexStr:(NSString *)hexStr alpha:(CGFloat)alpha
++ (UIColor *)kx_ColorWithHexStr:(NSString *)hexStr alpha:(CGFloat)alpha
 {
     // 处理字符串
     NSString *cString = [[hexStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] uppercaseString];

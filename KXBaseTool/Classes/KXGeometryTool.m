@@ -9,7 +9,7 @@
 #import "KXGeometryTool.h"
 
 @implementation KXGeometryTool
-+ (CGPoint)geometry_cacluteSubpoint:(CGPoint)p withPoint1:(CGPoint)p1 andPoint2:(CGPoint)p2
++ (CGPoint)kx_Geometry_cacluteSubpoint:(CGPoint)p withPoint1:(CGPoint)p1 andPoint2:(CGPoint)p2
 {
     CGFloat a = p2.y - p1.y;
     CGFloat b = p1.x - p2.x;
@@ -21,7 +21,7 @@
 
 
 
-+ (double)geometry_cacluteSlopWithFromCoord:(CGPoint)fromCoord toCoord:(CGPoint)toCoord withPoint:(CGPoint)topPoint
++ (double)kx_Geometry_cacluteSlopWithFromCoord:(CGPoint)fromCoord toCoord:(CGPoint)toCoord withPoint:(CGPoint)topPoint
 {
     CGFloat x1 = fromCoord.x - topPoint.x;
     CGFloat y1 = fromCoord.y - topPoint.y;
@@ -33,7 +33,7 @@
     return angle;
 }
 
-+ (CGFloat)geometry_caclutePointToLineDistance:(CGPoint)p withPoint1:(CGPoint)p1 andPoint2:(CGPoint)p2
++ (CGFloat)kx_Geometry_caclutePointToLineDistance:(CGPoint)p withPoint1:(CGPoint)p1 andPoint2:(CGPoint)p2
 {
     CGFloat a = p2.y - p1.y;
     CGFloat b = p1.x - p2.x;
@@ -42,7 +42,7 @@
     return d;
 }
 
-+ (CGFloat)geometry_cacluteDistanceFromPoint:(CGPoint)p1 toPoint:(CGPoint)p2
++ (CGFloat)kx_Geometry_cacluteDistanceFromPoint:(CGPoint)p1 toPoint:(CGPoint)p2
 {
     // 根号((x2 - x1)^2 + (y2 - y1)^2)
     return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));
