@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		136809335BD44CD789B3EE2D9FF02F39 /* Pods-KXBaseTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9850F25B870E650EF7A7A490C521BF2 /* Pods-KXBaseTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DAC5B8A26C3506400810D58 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DAC5B8826C3506400810D58 /* UIView+Frame.h */; };
+		1DAC5B8A26C3506400810D58 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DAC5B8826C3506400810D58 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DAC5B8B26C3506400810D58 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC5B8926C3506400810D58 /* UIView+Frame.m */; };
 		1DF80C6125A3F32100AD9386 /* KXGeometryTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF80C5A25A3F32100AD9386 /* KXGeometryTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DF80C6225A3F32100AD9386 /* KXGeometryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF80C5B25A3F32100AD9386 /* KXGeometryTool.m */; };
