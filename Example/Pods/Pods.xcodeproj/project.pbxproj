@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		136809335BD44CD789B3EE2D9FF02F39 /* Pods-KXBaseTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9850F25B870E650EF7A7A490C521BF2 /* Pods-KXBaseTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D191E1A25C3B56C00316C65 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D191E1825C3B56C00316C65 /* UIView+Extension.h */; };
-		1D191E1B25C3B56C00316C65 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D191E1925C3B56C00316C65 /* UIView+Extension.m */; };
+		1DAC5B8A26C3506400810D58 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DAC5B8826C3506400810D58 /* UIView+Frame.h */; };
+		1DAC5B8B26C3506400810D58 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC5B8926C3506400810D58 /* UIView+Frame.m */; };
 		1DF80C6125A3F32100AD9386 /* KXGeometryTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF80C5A25A3F32100AD9386 /* KXGeometryTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DF80C6225A3F32100AD9386 /* KXGeometryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF80C5B25A3F32100AD9386 /* KXGeometryTool.m */; };
 		1DF80C6325A3F32100AD9386 /* UIColor+KXColorExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF80C5C25A3F32100AD9386 /* UIColor+KXColorExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,8 +49,8 @@
 		01DCE3826C73216FAE9B4B2579FC44E5 /* Pods-KXBaseTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KXBaseTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14C6732E78906304716E36CE624529A5 /* KXBaseTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KXBaseTool-Info.plist"; sourceTree = "<group>"; };
 		192402694007E0361DDE786B1C027BA2 /* Pods-KXBaseTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KXBaseTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1D191E1825C3B56C00316C65 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		1D191E1925C3B56C00316C65 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1DAC5B8826C3506400810D58 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "KXBaseTool/Classes/UIView+Frame.h"; sourceTree = "<group>"; };
+		1DAC5B8926C3506400810D58 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "KXBaseTool/Classes/UIView+Frame.m"; sourceTree = "<group>"; };
 		1DF80C5A25A3F32100AD9386 /* KXGeometryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KXGeometryTool.h; path = KXBaseTool/Classes/KXGeometryTool.h; sourceTree = "<group>"; };
 		1DF80C5B25A3F32100AD9386 /* KXGeometryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KXGeometryTool.m; path = KXBaseTool/Classes/KXGeometryTool.m; sourceTree = "<group>"; };
 		1DF80C5C25A3F32100AD9386 /* UIColor+KXColorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KXColorExtension.h"; path = "KXBaseTool/Classes/UIColor+KXColorExtension.h"; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 				1DF80C5F25A3F32100AD9386 /* KXLineProgressView.m */,
 				1DF80C5C25A3F32100AD9386 /* UIColor+KXColorExtension.h */,
 				1DF80C6025A3F32100AD9386 /* UIColor+KXColorExtension.m */,
-				1D191E1825C3B56C00316C65 /* UIView+Extension.h */,
-				1D191E1925C3B56C00316C65 /* UIView+Extension.m */,
+				1DAC5B8826C3506400810D58 /* UIView+Frame.h */,
+				1DAC5B8926C3506400810D58 /* UIView+Frame.m */,
 				EF207C58AA1D495D675A3824D0EEDB05 /* Pod */,
 				DBC138EBC8A4113141E7FFA10410C460 /* Support Files */,
 			);
@@ -275,7 +275,7 @@
 				1DF80C6425A3F32100AD9386 /* KXLineProgressView.h in Headers */,
 				1DF80C6125A3F32100AD9386 /* KXGeometryTool.h in Headers */,
 				1DF80C6325A3F32100AD9386 /* UIColor+KXColorExtension.h in Headers */,
-				1D191E1A25C3B56C00316C65 /* UIView+Extension.h in Headers */,
+				1DAC5B8A26C3506400810D58 /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D191E1B25C3B56C00316C65 /* UIView+Extension.m in Sources */,
 				1DF80C6725A3F32100AD9386 /* UIColor+KXColorExtension.m in Sources */,
 				1DF80C6225A3F32100AD9386 /* KXGeometryTool.m in Sources */,
 				C4700D7B9E8BECBF295D7E3395BAE515 /* KXBaseTool-dummy.m in Sources */,
+				1DAC5B8B26C3506400810D58 /* UIView+Frame.m in Sources */,
 				1DF80C6625A3F32100AD9386 /* KXLineProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

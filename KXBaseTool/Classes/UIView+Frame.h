@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (Extension)
+@interface UIView (Frame)
 @property (assign, nonatomic) CGFloat kx_x;
 @property (assign, nonatomic) CGFloat kx_y;
 @property (assign, nonatomic) CGFloat kx_width;

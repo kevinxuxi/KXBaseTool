@@ -7,7 +7,7 @@
 
 #import "UIView+Extension.h"
 
-@implementation UIView (Extension)
+@implementation UIView (Frame)
 - (CGFloat)kx_x {
     return CGRectGetMinX(self.frame);
 }

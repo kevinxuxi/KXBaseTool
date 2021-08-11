@@ -11,6 +11,7 @@
 
 
 
+
 @interface KXViewController ()
 @property (nonatomic, assign)KXLineProgressView  *progressView;
 @end
